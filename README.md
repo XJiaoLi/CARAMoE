@@ -14,7 +14,8 @@ python -m pip install -r requirements.txt
 
 ## Data
 
-Place `[data_release/](https://github.com/XJiaoLi/CARAMoE/releases/download/data-v1.0/data_release.zip)` beside `run.py`.
+Place `data_release/` beside `run.py`.
+https://github.com/XJiaoLi/CARAMoE/releases/download/data-v1.0/data_release.zip
 
 AirQualityBench and BLAir support horizons of 6, 12, 18 and 24 hours. ChinaAir supports 1, 3, 7 and 14 days. For BLAir, choose `--city beijing` or `--city london`.
 
