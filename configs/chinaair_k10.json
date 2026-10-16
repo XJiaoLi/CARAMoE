@@ -1,0 +1,107 @@
+{
+  "dataset": "CHINA3238",
+  "data_version": "processed_per_pollutant_zero_mask_v5_missing20_co_native",
+  "zero_mask_policy": "per_pollutant",
+  "co_unit_policy": "source_native_no_rescale",
+  "metric_protocol": "dual_global_and_legacy_aqb",
+  "mask_overlay_policy": "structured_total_missing_20pct_input_only",
+  "frequency": "daily",
+  "data_dir": "data_release/ChinaAir",
+  "mask_overlay_dir": "data_release/ChinaAir/masks",
+  "scaler_path": "data_provider/metadata/ChinaAir/scaler.csv",
+  "adj_path": "data_release/ChinaAir/adjacency.pkl",
+  "metadata_path": "data_provider/metadata/ChinaAir/selected_nodes_metadata.csv",
+  "output_dir": "outputs/chinaair",
+  "parameters": [
+    "pm25",
+    "pm10",
+    "no2",
+    "o3",
+    "so2",
+    "co"
+  ],
+  "train_years": [
+    2017,
+    2018,
+    2019
+  ],
+  "validation_years": [
+    2020
+  ],
+  "test_years": [
+    2021
+  ],
+  "window_in": 30,
+  "forecast_horizons": [
+    1,
+    3,
+    7,
+    14
+  ],
+  "step": 1,
+  "model": "CARAMOE",
+  "batch_size": 20,
+  "batch_size_by_horizon": {
+    "1": 20,
+    "3": 8,
+    "7": 4,
+    "14": 2
+  },
+  "learning_rate": 0.001,
+  "epochs": 50,
+  "weight_decay": 0.00001,
+  "gpu": 0,
+  "num_workers": 0,
+  "seed": 2026,
+  "caramoe": {
+    "hidden_dim": 48,
+    "station_dim": 24,
+    "pollutant_dim": 16,
+    "time_dim": 16,
+    "router_dim": 32,
+    "spatial_chunk_size": 256,
+    "dropout": 0.1,
+    "station_id_dropout": 0.3,
+    "use_station_id": true,
+    "decoder_layers": 2,
+    "input_profile": "full",
+    "self_baseline": "last",
+    "trust_floor": 0.1,
+    "cross_mode": "lagged",
+    "lag_steps": [
+      0,
+      1,
+      3,
+      6,
+      12,
+      23
+    ],
+    "adapter_rank": 8,
+    "spatial_scales": [
+      5,
+      10
+    ],
+    "knn_k": 10
+  },
+  "caramoe_training": {
+    "loss_mode": "aqb_mix",
+    "training_variant": "C",
+    "expert_aux_weight": 0.15,
+    "safe_weight": 0.1,
+    "route_consistency_weight": 0.05,
+    "high_reliability_threshold": 0.75,
+    "safe_margin_normalized": 0,
+    "run_consistency_every": 4,
+    "grad_clip": 5,
+    "amp": true,
+    "augment": {
+      "enabled": true,
+      "trailing_block_prob": 0.25,
+      "trailing_block_min": 3,
+      "trailing_block_max": 24,
+      "full_channel_drop_prob": 0.05,
+      "station_drop_prob": 0.02,
+      "random_point_drop_prob": 0.03
+    }
+  }
+}

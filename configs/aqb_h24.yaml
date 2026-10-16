@@ -1,0 +1,61 @@
+data:
+  data_dir: data_release/AirQualityBench
+  metadata_path: data_provider/metadata/AirQualityBench/selected_nodes_metadata.csv
+  scaler_path: data_provider/metadata/AirQualityBench/scaler.csv
+  graph_cache_path: data_provider/metadata/AirQualityBench/caramoe_graph_k20.npz
+  capability_cache_path: data_provider/metadata/AirQualityBench/capability_train_2021_2023.npz
+  train_years: [2021, 2022, 2023]
+  val_years: [2024]
+  test_years: [2025]
+  input_window: 24
+  output_window: 24
+  train_step: 24
+  eval_step: 24
+  cross_year_windows: true
+  num_workers: 4
+  max_stations: null
+  station_subset_path: null
+model:
+  hidden_dim: 48
+  station_dim: 24
+  pollutant_dim: 16
+  time_dim: 16
+  router_dim: 32
+  num_pollutants: 6
+  knn_k: 20
+  spatial_chunk_size: 256
+  dropout: 0.1
+  station_id_dropout: 0.3
+  use_station_id: true
+  decoder_layers: 2
+  input_profile: full
+augment:
+  enabled: true
+  trailing_block_prob: 0.25
+  trailing_block_min: 3
+  trailing_block_max: 24
+  full_channel_drop_prob: 0.05
+  station_drop_prob: 0.02
+  random_point_drop_prob: 0.03
+train:
+  seed: 42
+  device: auto
+  epochs: 50
+  batch_size: 2
+  learning_rate: 0.001
+  weight_decay: 0.00001
+  grad_clip: 5.0
+  amp: true
+  log_every: 20
+  scheduler_patience: 5
+  early_stopping_patience: null
+  output_dir: ./outputs/CARAMOE/full/24_24/seed_42
+  training_variant: C
+  expert_aux_weight: 0.15
+  safe_weight: 0.10
+  route_consistency_weight: 0.05
+  high_reliability_threshold: 0.75
+  safe_margin_normalized: 0.0
+  run_consistency_every: 4
+  max_train_batches: null
+  max_eval_batches: null

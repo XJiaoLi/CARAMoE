@@ -1,0 +1,101 @@
+{
+  "dataset": "KDD Cup 2018 Fresh Air (Zenodo missing version)",
+  "city": "London",
+  "city_key": "london",
+  "source_tsf": "kdd_cup_2018_dataset_with_missing_values.tsf",
+  "source_tsf_sha256": "e17b04b06587f8001eea3538d6b276658c3d69d1e0dfcb9c706f939b17922869",
+  "h5_file": "london.h5",
+  "h5_sha256": "807e8a837f52750bcf84e5b8e2c9264eb5c4ea3209d40e1b56fb6de2e6f6c76f",
+  "station_count": 24,
+  "series_count": 60,
+  "total_hours": 10920,
+  "clock_start_normalized": "2017-01-01T00:00:00",
+  "clock_end_exclusive": "2018-04-01T00:00:00",
+  "source_start_timestamps": [
+    "2017-01-01 00-00-01",
+    "2017-03-01 00-00-01"
+  ],
+  "pollutants": [
+    "pm25",
+    "pm10",
+    "no2",
+    "o3",
+    "so2",
+    "co"
+  ],
+  "structural_capability_count_by_pollutant": {
+    "pm25": 24,
+    "pm10": 19,
+    "no2": 17,
+    "o3": 0,
+    "so2": 0,
+    "co": 0
+  },
+  "observed_count": 543446,
+  "possible_structural_count": 655200,
+  "tsf_explicit_missing_rate_within_declared_series": 0.16876827820809315,
+  "aligned_missing_rate_over_declared_capability_cells": 0.1705647130647131,
+  "split_ratio": "3:1:1",
+  "split_rule": "Chronological target-time split. Forecast targets stay wholly inside one split; validation/test inputs may use only earlier observed context.",
+  "input_window": 24,
+  "horizons": [
+    6,
+    12,
+    18,
+    24
+  ],
+  "step_rule": "step equals forecast horizon",
+  "splits": {
+    "train": {
+      "start_index_inclusive": 0,
+      "end_index_exclusive": 6552,
+      "hours": 6552,
+      "clock_start": "2017-01-01T00:00:00",
+      "clock_end_exclusive": "2017-10-01T00:00:00",
+      "fraction": 0.6,
+      "window_counts": {
+        "H6": 1088,
+        "H12": 544,
+        "H18": 362,
+        "H24": 272
+      }
+    },
+    "val": {
+      "start_index_inclusive": 6552,
+      "end_index_exclusive": 8736,
+      "hours": 2184,
+      "clock_start": "2017-10-01T00:00:00",
+      "clock_end_exclusive": "2017-12-31T00:00:00",
+      "fraction": 0.2,
+      "window_counts": {
+        "H6": 364,
+        "H12": 182,
+        "H18": 121,
+        "H24": 91
+      }
+    },
+    "test": {
+      "start_index_inclusive": 8736,
+      "end_index_exclusive": 10920,
+      "hours": 2184,
+      "clock_start": "2017-12-31T00:00:00",
+      "clock_end_exclusive": "2018-04-01T00:00:00",
+      "fraction": 0.2,
+      "window_counts": {
+        "H6": 364,
+        "H12": 182,
+        "H18": 121,
+        "H24": 91
+      }
+    }
+  },
+  "scaler_rule": "Per-city, per-pollutant mean/std from observed training cells only",
+  "metadata_file": "metadata.csv",
+  "scaler_file": "scaler.csv",
+  "capability_file": "capability_train.npz",
+  "caramoe_graph": "caramoe_graph_k20.npz",
+  "caramoe_k": 20,
+  "aqb_graph": "adj_mx_10.pkl",
+  "aqb_k": 10,
+  "aqb_sigma_km": 8.086367421273037
+}

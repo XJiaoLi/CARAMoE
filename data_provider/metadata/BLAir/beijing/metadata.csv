@@ -1,0 +1,36 @@
+station_id,lat,lon,city,site_type,pollutants_in_tsf,coordinate_vintage,coordinate_source_url
+aotizhongxin_aq,39.982,116.397,Beijing,Urban,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+badaling_aq,40.365,115.988,Beijing,Reference / regional,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+beibuxinqu_aq,40.09,116.174,Beijing,Urban,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+daxing_aq,39.718,116.404,Beijing,Suburban,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+dingling_aq,40.292,116.22,Beijing,Reference / regional,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+donggaocun_aq,40.1,117.12,Beijing,Reference / regional,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+dongsi_aq,39.929,116.417,Beijing,Urban,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+dongsihuan_aq,39.939,116.483,Beijing,Traffic,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+fangshan_aq,39.742,116.136,Beijing,Suburban,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+fengtaihuayuan_aq,39.863,116.279,Beijing,Urban,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+guanyuan_aq,39.929,116.339,Beijing,Urban,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+gucheng_aq,39.914,116.184,Beijing,Urban,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+huairou_aq,40.328,116.628,Beijing,Suburban,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+liulihe_aq,39.58,116,Beijing,Reference / regional,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+mentougou_aq,39.937,116.106,Beijing,Suburban,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+miyun_aq,40.37,116.832,Beijing,Suburban,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+miyunshuiku_aq,40.499,116.911,Beijing,Reference / regional,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+nansanhuan_aq,39.856,116.368,Beijing,Traffic,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+nongzhanguan_aq,39.937,116.461,Beijing,Urban,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+pingchang_aq,40.217,116.23,Beijing,Suburban,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+pinggu_aq,40.143,117.1,Beijing,Suburban,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+qianmen_aq,39.899,116.395,Beijing,Traffic,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+shunyi_aq,40.127,116.655,Beijing,Suburban,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+tiantan_aq,39.886,116.407,Beijing,Urban,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+tongzhou_aq,39.886,116.663,Beijing,Suburban,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+wanliu_aq,39.987,116.287,Beijing,Urban,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+wanshouxigong_aq,39.878,116.352,Beijing,Urban,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+xizhimenbei_aq,39.954,116.349,Beijing,Traffic,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+yanqin_aq,40.453,115.972,Beijing,Suburban,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+yizhuang_aq,39.795,116.506,Beijing,Suburban,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+yongdingmennei_aq,39.876,116.394,Beijing,Traffic,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+yongledian_aq,39.712,116.783,Beijing,Reference / regional,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+yufa_aq,39.52,116.3,Beijing,Reference / regional,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+yungang_aq,39.824,116.146,Beijing,Urban,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv
+zhiwuyuan_aq,40.002,116.207,Beijing,Urban,PM2.5|PM10|NO2|CO|O3|SO2,KDD Cup 2018 station metadata,https://raw.githubusercontent.com/ceshine/kddcup2018/master/data/Beijing_AirQuality_Stations.csv

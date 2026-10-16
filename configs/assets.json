@@ -1,0 +1,113 @@
+{
+  "description": "Input data files for training and prediction.",
+  "entries": [
+    {
+      "artifact": "data_release/AirQualityBench/2021.h5",
+      "bytes": 186061095,
+      "sha256": "111bcf2a7e84d0e8a6421cfeebc6af321d1778acd793d4b60332345cb3b56f47",
+      "dataset": "aqb"
+    },
+    {
+      "artifact": "data_release/AirQualityBench/2022.h5",
+      "bytes": 179894888,
+      "sha256": "ea6100a26e253857d63518cefcb62f736401de35f8a1173123aed16c33d6a40a",
+      "dataset": "aqb"
+    },
+    {
+      "artifact": "data_release/AirQualityBench/2023.h5",
+      "bytes": 277680451,
+      "sha256": "952556ead9a3f62bfa9d08145f93fa050a8486b3e7fe4da8623029c4d2fde315",
+      "dataset": "aqb"
+    },
+    {
+      "artifact": "data_release/AirQualityBench/2024.h5",
+      "bytes": 317830115,
+      "sha256": "b2a25223614b092ead3ece55093c43a094554c90361baea35a8933625ad185d4",
+      "dataset": "aqb"
+    },
+    {
+      "artifact": "data_release/AirQualityBench/2025.h5",
+      "bytes": 324894267,
+      "sha256": "bbdc1c689f8abbfd12869a4d0addab4ac310c284664f537d88200778a567d6d5",
+      "dataset": "aqb"
+    },
+    {
+      "artifact": "data_release/ChinaAir/adjacency.pkl",
+      "bytes": 451217,
+      "sha256": "99f817868439100a2044dd3471b69963742f7514579b6806639764d96dcd7daf",
+      "dataset": "chinaair"
+    },
+    {
+      "artifact": "data_release/ChinaAir/2017.h5",
+      "bytes": 2896909,
+      "sha256": "86badd28f1027b8005599849cf0780d35939d65219a5ed15ad64ac3709015963",
+      "dataset": "chinaair"
+    },
+    {
+      "artifact": "data_release/ChinaAir/2018.h5",
+      "bytes": 2826063,
+      "sha256": "0c8aa449deaaca87466c067ca5a041cb59449ff53fc69ac4ee28800fcce5dacd",
+      "dataset": "chinaair"
+    },
+    {
+      "artifact": "data_release/ChinaAir/2019.h5",
+      "bytes": 2698647,
+      "sha256": "be470464aaa5db1e44dbaaab2441f2890ac295c7e5bc07facc7f43506acba0fb",
+      "dataset": "chinaair"
+    },
+    {
+      "artifact": "data_release/ChinaAir/2020.h5",
+      "bytes": 2808357,
+      "sha256": "e8f597b6cfd22d8efecb08a3260fb3cbcba4f5a903f82b6a676832f4885d8243",
+      "dataset": "chinaair"
+    },
+    {
+      "artifact": "data_release/ChinaAir/2021.h5",
+      "bytes": 2780593,
+      "sha256": "87e7a3cf7a037e3d6bb7ad63f4ca012d988f7f58cae4b38468e81bacd06333a3",
+      "dataset": "chinaair"
+    },
+    {
+      "artifact": "data_release/ChinaAir/masks/2017.npz",
+      "bytes": 186668,
+      "sha256": "1e32e1d5220a148435580f009186657df0d1f68e5f533ecd286bea7dab35f067",
+      "dataset": "chinaair"
+    },
+    {
+      "artifact": "data_release/ChinaAir/masks/2018.npz",
+      "bytes": 169714,
+      "sha256": "5e49d14866780a5fe719390322116b2e6a1466f8ffa9171935127af862d71723",
+      "dataset": "chinaair"
+    },
+    {
+      "artifact": "data_release/ChinaAir/masks/2019.npz",
+      "bytes": 124712,
+      "sha256": "5d69a64e2d9c0f2699d0a4eca53dcc55a15aba37a8ba7b27d1afa3f8c377d093",
+      "dataset": "chinaair"
+    },
+    {
+      "artifact": "data_release/ChinaAir/masks/2020.npz",
+      "bytes": 188602,
+      "sha256": "84324333d050559fa6f665e35f944f824eeb0ba69a04d9f3efbf28f8072949e9",
+      "dataset": "chinaair"
+    },
+    {
+      "artifact": "data_release/ChinaAir/masks/2021.npz",
+      "bytes": 186232,
+      "sha256": "db5555bdcb56226f371a97cb4245f96eae26e3e364a6b4b64e8012aa4294d3ad",
+      "dataset": "chinaair"
+    },
+    {
+      "artifact": "data_release/BLAir/beijing.h5",
+      "bytes": 2730350,
+      "sha256": "5dc4c31674941a45707a95f5f00e2a382eee0d33c83a2bc659d3eecb88d114b3",
+      "dataset": "blair"
+    },
+    {
+      "artifact": "data_release/BLAir/london.h5",
+      "bytes": 1317168,
+      "sha256": "807e8a837f52750bcf84e5b8e2c9264eb5c4ea3209d40e1b56fb6de2e6f6c76f",
+      "dataset": "blair"
+    }
+  ]
+}
