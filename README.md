@@ -41,5 +41,3 @@ python run.py predict --dataset chinaair --horizon 7 --checkpoint outputs/train/
 ```
 
 You can also pass a specific `.pt` or `.pth` file. If the directory contains multiple experiments, select one experiment directory or weight file.
-
-Errors are saved in `evaluation_metrics.json`. 
