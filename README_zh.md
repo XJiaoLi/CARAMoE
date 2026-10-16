@@ -12,7 +12,7 @@ python -m pip install -r requirements.txt
 
 ## 数据
 
-将 `data_release/` 放在 `run.py` 同级。
+将 `data_release/` 放在 `run.py` 同级。 (https://github.com/XJiaoLi/CARAMoE/releases/download/data-v1.0/data_release.zip)
 
 AirQualityBench 和 BLAir 支持预测未来 6、12、18、24 小时；ChinaAir 支持预测未来 1、3、7、14 天。BLAir 通过 `--city beijing` 或 `--city london` 选择城市。
 
